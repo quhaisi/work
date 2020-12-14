@@ -1,10 +1,8 @@
 const { description } = require('../../package')
 
 module.exports = {
-  base: '/work/',
   title: '工作笔记',
   description: description,
-  temp: '.temp',
   dest: 'dist',
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
